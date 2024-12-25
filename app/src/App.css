@@ -1,0 +1,19 @@
+.win {
+    background-color: #e67e22;
+    color: black;
+    animation: blink-bg 1.5s infinite ease-in-out;
+    transform-origin: center; /* Keeps scaling centered */
+}
+
+
+@keyframes blink-bg {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
